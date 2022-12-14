@@ -5,3 +5,5 @@ This is a page to showcase my portfolio, therefore showcasing some projects that
 > Check the portfolio by clicking [here](google.com "here").
 
 I did this project as my final assignament of the program "TRANSformação Digital", an partnership between the companies Suzano and Alura. The program was a unique opportunity of inclusiveness for trans people to learn HTML, CSS, Javascript and a bit of Python. 
+
+:exclamation: This is an still developing project. There may be changes in the future!
