@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Portfolio - Malina França</title>
-    
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
 
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Josefin+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
     <script src="https://unpkg.com/phosphor-icons"></script>
 
@@ -17,13 +20,15 @@
   <body>
     <header>
       <div class="sidebar-desktop">
+        <div class="side-image">
+            <img src="./assets/images/coding-image.jpg" alt="Open notebook with lines of coding written by a person parcially shown" class="side-profile" />
+        </div>
         <nav>
           <ul>
-            <li><i class="ph-user-circle"></i> about</li>
-            <li><i class="ph-file-code"></i> portfolio</li>
-            <li><i class="ph-graduation-cap"></i> education</li>
-            <li><i class="ph-trend-up"></i> experiences</li>
-            <li><i class="ph-chart-bar"></i> skills</li>
+            <li><i class="ph-user-circle"></i> <a href="#base-information">about</a></li>
+            <li><i class="ph-graduation-cap"></i> <a href="#education">education</a></li>
+            <li><i class="ph-trend-up"></i> <a href="#experiencies">experiences</a></li>
+            <li><i class="ph-chart-bar"></i> <a href="#skills">skills</a></li>
           </ul>
         </nav>
       </div>
@@ -31,7 +36,6 @@
         <nav>
           <ul>
             <li><i class="ph-user-circle"></i> about</li>
-            <li><i class="ph-file-code"></i> portfolio</li>
             <li><i class="ph-graduation-cap"></i> education</li>
             <li><i class="ph-trend-up"></i> experiences</li>
             <li><i class="ph-chart-bar"></i> skills</li>
@@ -44,21 +48,40 @@
         <div class="basic-infos">
             <h1>Malina França</h1>
             <h2>Software Developer</h2>
-            <ul>
+            <div class="about-me">Hi and hello to you! My name is Malina França and I'm a trans woman working as a software developer in Brazil. Previously, I studied Languages, but I realized that wasn't exactly what I was looking for... The programming languages were my true love, you know. Besides that, I also love literature, movies, R&B and pop music! Send me a message and maybe we can create a match at Spotify and discover new music. (:</div>
+            <ul class="basic-about">
                 <li><i class="ph-map-pin-fill"></i> Rio de Janeiro, Brazil</li>
-                <li><i class="ph-phone-fill"></i> <a href="tel:+5521973497249"></a>+55 21 973497249</li>
+                <li><i class="ph-phone-fill"></i> <a href="tel:+5521973497249">+55 21 973497249</a></li>
                 <li><i class="ph-envelope-fill"></i> <a href="mailto:malinafrancab@gmail.com">malinafrancab@gmail.com</a></li>
             </ul>
 
             <h3>Find me here:</h3>
             <ul class="socialmedia">
-                <li><a href="https://www.linkedin.com/in/malinafranca/"></a><i class="ph-linkedin-logo-light"></i></a></li>
-                <li><a href="https://github.com/malinasz"></a><i class="ph-github-logo-light"></i></li>
+                <li><a href="https://www.linkedin.com/in/malinafranca/"><i class="ph-linkedin-logo-light"></i></a></a></li>
+                <li><a href="https://github.com/malinasz"><i class="ph-github-logo-light"></i></a></li>
             </ul>
         </div>
 
         <div class="additional-info">
-            <img src="./assets/images/coding-image.jpg" alt="Open notebook with lines of coding written by a person parcially shown" />
+            <img src="./assets/images/coding-image.jpg" alt="Open notebook with lines of coding written by a person parcially shown" class="main-image" />
+        </div>
+    </section>
+
+    <section id="education">
+        <h1>Education</h1>
+
+        <div class="abt-education">
+            <article class="formation">
+                <h2>Languages - Portuguese, English, Literature</h2>
+                <em>2020 - 2022</em> — <b>UFRRJ</b><br>
+                <p class="description">During my time at this course, I learned the gramatics of English, Brazilian Portuguese, and also Literature. In my first semester, I wrote an article about the parallels of black motherhood in the poetries of Conceição de Evaristo e Castro Alves. At my final semester, I also presented an project of class about poetry and the political importance of writing poetry. </p>
+            </article>
+
+            <article class="formation">
+                <h2>Analysis and Development of Systems</h2>
+                <em>2022 - 2024</em> — <b>Descomplica</b><br>
+                <p class="description">During my short time at Descomplica, as I'm still studying, I have already learned a bit of Java, relational databases, Bootstrap, HTML, CSS, Javascript, while also participating in some soft skills classes, such as business communication.</p>
+            </article>
         </div>
     </section>
 
