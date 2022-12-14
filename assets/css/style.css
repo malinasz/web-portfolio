@@ -117,6 +117,11 @@ section#base-information {
     height: 100vh;
     color: black;
 }
+
+.about-me {
+    width: 90%;
+line-height: 1.2;
+}
 .main-image {
     width: 350px;
     height: 350px;
@@ -180,19 +185,19 @@ section#education {
     flex-direction: column;
 }
 
-.about-me {
-    width: 90%;
-line-height: 1.2;
+section#experiences {
+    flex-direction:column;
 }
 
-.abt-education {
+.abt-education, .abt-experiences {
     display: flex;
     justify-content: space-evenly;
+    margin: 0 5%;
 }
 
 article.formation {
-    width: 40%;
-    /* display: flex; */
+    flex: 1 1 100%;
+    margin: 0 2%;
     text-align: justify;
     background: #ffffffc9;
     word-break: break-word;
